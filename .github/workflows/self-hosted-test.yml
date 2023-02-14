@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   build-and-deploy:
-    runs-on: self-hosted
+    runs-on: kemerdevapps
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
